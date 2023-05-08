@@ -22,6 +22,7 @@ function Project() {
               className="projectPageCardTitle card-text"
               href="https://weather-vanilla-project.netlify.app/"
               target="_blank"
+              rel="noreferrer"
             >
               Weather App
             </a>
@@ -44,6 +45,7 @@ function Project() {
               className="projectPageCardTitle card-text"
               href="https://lets-tenzy.netlify.app/"
               target="_blank"
+              rel="noreferrer"
             >
               Tenzies Game
             </a>
@@ -65,6 +67,7 @@ function Project() {
               className="projectPageCardTitle card-text"
               href="https://restaurant-uiux.netlify.app/"
               target="_blank"
+              rel="noreferrer"
             >
               Restaurant UI
             </a>
