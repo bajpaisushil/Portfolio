@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
 import shark from '../../images/shark.png';
 import crocodile from '../../images/crocodile.png';
 import turtle from '../../images/turtle.png';
 
 function Skills() {
-  const [num, setNum] = useState(0);
+  // const [num, setNum] = useState(0);
 
   function randomNumber(min, max) {
     // 👇️ get number between min (inclusive) and max (inclusive)

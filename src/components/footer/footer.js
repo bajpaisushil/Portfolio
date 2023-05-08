@@ -37,11 +37,10 @@ function Footer(){
                 <PlaceSharpIcon />-New Delhi-110041
               </p>
               <div className="footerPageContactLink">
-              <a className="mx-4" href="https://www.linkedin.com/in/sushil-bajpai-1a95441b4/"
-                target="_blank">
+              <a className="mx-4" href="https://www.linkedin.com/in/sushil-bajpai-1a95441b4/" target="_blank" rel="noreferrer">
                 <LinkedInIcon sx={{ fontSize: 50 }} color="primary" />
               </a>
-              <a href="https://github.com/sushil2003/" target="_blank">
+              <a href="https://github.com/sushil2003/" target="_blank" rel="noreferrer">
                 <GitHubIcon sx={{ fontSize: 50 }} color="secondary" />
               </a>
               </div>
