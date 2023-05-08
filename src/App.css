@@ -269,6 +269,7 @@ nav .icon-burger .line{
   font-size: 1rem;
 }
 .footerPageCards{
+  margin: 1rem;
   background-color: black;
 }
 .footerPageQuicks a{
@@ -436,9 +437,9 @@ nav .icon-burger .line{
   .footerPageQuickLinkLinks a{
     font-size: 1rem;
   }
-  .footerPageCard3{
+  .footerPageCards{
     width: fit-content;
-    margin: 3rem;
+    margin: 1.5rem;
   }
 
 }
