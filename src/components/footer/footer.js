@@ -33,7 +33,7 @@ function Footer(){
             <div className="card-body">
               <h5 className="card-title p-2">Contact</h5>
               <p className="card-text footerPageText">
-                <MarkunreadSharpIcon />-sushilbajpai2006@gmail.com<br/>
+                <MarkunreadSharpIcon />-sushilbajpai2003@gmail.com<br/>
                 <PlaceSharpIcon />-New Delhi-110041
               </p>
               <div className="footerPageContactLink">

@@ -19,7 +19,7 @@ function About(){
             their websites.
           </p>
           <div className="aboutPageFooter">
-            <h2 className="mailId">Email Id -: sushilbajpai2006@gmail.com</h2>
+            <h2 className="mailId">Email Id -: sushilbajpai2003@gmail.com</h2>
             <h2 className="place">Place -: New-Delhi - 110041</h2>
           </div>
         </div>
