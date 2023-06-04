@@ -1,8 +1,8 @@
 import React from "react";
 import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
-import shark from '../../images/shark.png';
-import crocodile from '../../images/crocodile.png';
-import turtle from '../../images/turtle.png';
+import shark from "../../images/shark.png";
+import crocodile from "../../images/crocodile.png";
+import turtle from "../../images/turtle.png";
 
 function Skills() {
   // const [num, setNum] = useState(0);
@@ -19,94 +19,58 @@ function Skills() {
         </p>
       </div>
       <div className="skillsAll w-100">
-        <marquee
-          className="p-4 skillsText"
-          scrollamount={`${randomNumber(2, 11)}%`}
-          direction="right"
-        >
-          <div className="skillsPageSkill">HTML</div>
-        </marquee>
-        <marquee
-          className="p-4 skillsText"
-          scrollamount={`${randomNumber(2, 11)}%`}
-          direction="right"
-        >
-          <div
-            className="skillsPageSkill">
-            CSS
-          </div>
-        </marquee>
-        <marquee
-          className="p-4 skillsText"
-          scrollamount={`${randomNumber(2, 11)}%`}
-          direction="right"
-        >
-          <div className="skillsPageSkill" style={{
+        <div className="skillsPageSkill" style={{position: "relative", left: `${randomNumber(1,65)}%`}}>HTML</div>
+        <div className="skillsPageSkill"  style={{position: "relative", left: `${randomNumber(1,65)}%`}}>CSS</div>
+
+        <div
+          className="skillsPageSkill"
+          style={{
             backgroundImage: `url(${crocodile})`,
-          }}>TailWind CSS</div>
-        </marquee>
-        <marquee
-          className="p-4 skillsText"
-          scrollamount={`${randomNumber(2, 11)}%`}
-          direction="right"
+            position: "relative", left: `${randomNumber(1, 65)}%`
+          }}
         >
-          <div className="skillsPageSkill">JavaScript</div>
-        </marquee>
-        <marquee
-          className="p-4 skillsText"
-          scrollamount={`${randomNumber(2, 11)}%`}
-          direction="right"
-        >
-          <div className="skillsPageSkill" style={{
+          TailWind CSS
+        </div>
+
+        <div className="skillsPageSkill"  style={{position: "relative", left: `${randomNumber(1,65)}%`}}>JavaScript</div>
+
+        <div
+          className="skillsPageSkill"
+          style={{
             backgroundImage: `url(${crocodile})`,
-          }}>BootStrap</div>
-        </marquee>
-        <marquee
-          className="p-4 skillsText"
-          scrollamount={`${randomNumber(2, 11)}%`}
-          direction="right"
+            position: "relative", left: `${randomNumber(1, 65)}%`
+          }}
         >
-          <div className="skillsPageSkill" style={{
-              backgroundImage: `url(${shark})`,
-            }}>ReactJS</div>
-        </marquee>
-        <marquee
-          className="p-4 skillsText"
-          scrollamount={`${randomNumber(2, 11)}%`}
-          direction="right"
+          BootStrap
+        </div>
+
+        <div
+          className="skillsPageSkill"
+          style={{
+            backgroundImage: `url(${shark})`,
+            position: "relative", left: `${randomNumber(1, 65)}%`
+          }}
         >
-          <div className="skillsPageSkill">C / C++</div>
-        </marquee>
-        <marquee
-          className="p-4 skillsText"
-          scrollamount={`${randomNumber(2, 11)}%`}
-          direction="right"
-        >
-          <div className="skillsPageSkill">Python</div>
-        </marquee>
-        <marquee
-          className="p-4 skillsText"
-          scrollamount={`${randomNumber(2, 11)}%`}
-          direction="right"
-        >
-          <div className="skillsPageSkill">MySQL</div>
-        </marquee>
-        <marquee
-          className="p-4 skillsText"
-          scrollamount={`${randomNumber(2, 11)}%`}
-          direction="right"
-        >
-          <div className="skillsPageSkill">MongoDB</div>
-        </marquee>
-        <marquee
-          className="p-4 skillsText"
-          scrollamount={`${randomNumber(2, 5)}%`}
-          direction="left"
-        >
-          <div className="skillsPageSkill" style={{
+          ReactJS
+        </div>
+
+        <div className="skillsPageSkill"  style={{position: "relative", left: `${randomNumber(1,65)}%`}}>C / C++</div>
+
+        <div className="skillsPageSkill"  style={{position: "relative", left: `${randomNumber(1,65)}%`}}>Python</div>
+
+        <div className="skillsPageSkill"  style={{position: "relative", left: `${randomNumber(1,65)}%`}}>MySQL</div>
+
+        <div className="skillsPageSkill"  style={{position: "relative", left: `${randomNumber(1,65)}%`}}>MongoDB</div>
+
+        <div
+          className="skillsPageSkill"
+          style={{
             backgroundImage: `url(${turtle})`,
-          }}>Git & GitHub</div>
-        </marquee>
+            position: "relative", left: `${randomNumber(1, 65)}%`
+          }}
+        >
+          Git & GitHub
+        </div>
       </div>
     </div>
   );
