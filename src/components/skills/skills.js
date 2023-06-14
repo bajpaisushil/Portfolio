@@ -19,26 +19,26 @@ function Skills() {
         </p>
       </div>
       <div className="skillsAll w-100">
-        <div className="skillsPageSkill" style={{position: "relative", left: `${randomNumber(1,65)}%`}}>HTML</div>
-        <div className="skillsPageSkill"  style={{position: "relative", left: `${randomNumber(1,65)}%`}}>CSS</div>
+        <div className="skillsPageSkill" style={{position: "relative", left: `${randomNumber(1,50)}%`}}>HTML</div>
+        <div className="skillsPageSkill"  style={{position: "relative", left: `${randomNumber(1,50)}%`}}>CSS</div>
 
         <div
           className="skillsPageSkill"
           style={{
             backgroundImage: `url(${crocodile})`,
-            position: "relative", left: `${randomNumber(1, 65)}%`
+            position: "relative", left: `${randomNumber(1, 50)}%`
           }}
         >
           TailWind CSS
         </div>
 
-        <div className="skillsPageSkill"  style={{position: "relative", left: `${randomNumber(1,65)}%`}}>JavaScript</div>
+        <div className="skillsPageSkill"  style={{position: "relative", left: `${randomNumber(1,50)}%`}}>JavaScript</div>
 
         <div
           className="skillsPageSkill"
           style={{
             backgroundImage: `url(${crocodile})`,
-            position: "relative", left: `${randomNumber(1, 65)}%`
+            position: "relative", left: `${randomNumber(1, 50)}%`
           }}
         >
           BootStrap
@@ -48,25 +48,25 @@ function Skills() {
           className="skillsPageSkill"
           style={{
             backgroundImage: `url(${shark})`,
-            position: "relative", left: `${randomNumber(1, 65)}%`
+            position: "relative", left: `${randomNumber(1, 50)}%`
           }}
         >
           ReactJS
         </div>
 
-        <div className="skillsPageSkill"  style={{position: "relative", left: `${randomNumber(1,65)}%`}}>C / C++</div>
+        <div className="skillsPageSkill"  style={{position: "relative", left: `${randomNumber(1,50)}%`}}>C / C++</div>
 
-        <div className="skillsPageSkill"  style={{position: "relative", left: `${randomNumber(1,65)}%`}}>Python</div>
+        <div className="skillsPageSkill"  style={{position: "relative", left: `${randomNumber(1,50)}%`}}>Python</div>
 
-        <div className="skillsPageSkill"  style={{position: "relative", left: `${randomNumber(1,65)}%`}}>MySQL</div>
+        <div className="skillsPageSkill"  style={{position: "relative", left: `${randomNumber(1,50)}%`}}>MySQL</div>
 
-        <div className="skillsPageSkill"  style={{position: "relative", left: `${randomNumber(1,65)}%`}}>MongoDB</div>
+        <div className="skillsPageSkill"  style={{position: "relative", left: `${randomNumber(1,50)}%`}}>MongoDB</div>
 
         <div
           className="skillsPageSkill"
           style={{
             backgroundImage: `url(${turtle})`,
-            position: "relative", left: `${randomNumber(1, 65)}%`
+            position: "relative", left: `${randomNumber(1, 50)}%`
           }}
         >
           Git & GitHub
