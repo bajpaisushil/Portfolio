@@ -77,6 +77,29 @@ function Project() {
           </p>
         </div>
       </div>
+      <div className="card projectPageCards col-5">
+        <img
+          src={require("../../images/notes-keeping-app.png")}
+          className="card-img"
+          alt="Notes Keeping App..."
+        />
+        <div className="card-body">
+          <p className="card-title text-center">
+            <a
+              className="projectPageCardTitle card-text"
+              href="https://notes-keep-frontend.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Notes Keeping App
+            </a>
+          </p>
+          <p className="card-text projectPageCardInfo">
+            A Full-Stack Notes Keeping App to save your memory
+          </p>
+        </div>
+      </div>
+
     </div>
   );
 }
