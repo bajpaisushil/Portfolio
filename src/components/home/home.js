@@ -16,7 +16,7 @@ function Home(){
                   <img className="homePageIcon" src={require("../../images/linkedinIcon.png")}  alt="Linkedin Icon" />
               </a>
               <a className="homePageSites" 
-               href="https://github.com/sushil2003/" target="_blank" rel="noreferrer">
+               href="https://github.com/bajpaisushil/" target="_blank" rel="noreferrer">
                 <img className="homePageIcon" src={require("../../images/githubIcon.png")}  alt="Github Icon" />
               </a>
               <a className="homePageSites" 
