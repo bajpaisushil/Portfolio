@@ -30,7 +30,7 @@ function Home(){
           <img
             className="myImageImg"
             src={require("../../images/my-image.png")}
-            alt="MyImage"
+            alt="Sushil Bajpai - Web Developer"
           />
         </div>
       </div>
