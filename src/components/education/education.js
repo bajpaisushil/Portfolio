@@ -11,7 +11,7 @@ function Education() {
         <div className="card w-75 h-25 educationPageCollege">
           <div className="educationPageImage">
             <img
-              src={require("../../images/bvcoe.jpg")}
+              src={"/images/bvcoe.jpg"}
               className="card-img-top"
               alt="BVCOEND"
             />
@@ -30,7 +30,7 @@ function Education() {
         <div className="card w-75 h-25 educationPageTwelth">
           <div className="educationPageImage">
             <img
-              src={require("../../images/gsbv.jpg")}
+              src={"/images/gsbv.jpg"}
               className="card-img-top"
               alt="GSBV Peeragarhi"
             />
@@ -49,7 +49,7 @@ function Education() {
         <div className="card w-75 h-25 educationPageTenth">
           <div className="educationPageImage">
             <img
-              src={require("../../images/margshree.jpg")}
+              src={"/images/margshree.jpg"}
               className="card-img-top"
               alt="Margshree School"
             />

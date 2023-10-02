@@ -13,15 +13,15 @@ function Home(){
               <a className="homePageSites" 
                 href="https://www.linkedin.com/in/sushil-bajpai-1a95441b4/"
                 target="_blank" rel="noreferrer">
-                  <img className="homePageIcon" src={require("../../images/linkedinIcon.png")}  alt="Linkedin Icon" />
+                  <img className="homePageIcon" src={"/images/linkedinIcon.png"}  alt="Linkedin Icon" />
               </a>
               <a className="homePageSites" 
                href="https://github.com/bajpaisushil/" target="_blank" rel="noreferrer">
-                <img className="homePageIcon" src={require("../../images/githubIcon.png")}  alt="Github Icon" />
+                <img className="homePageIcon" src={"/images/githubIcon.png"}  alt="Github Icon" />
               </a>
               <a className="homePageSites" 
               href="https://www.hackerrank.com/sushilbajpai2003" target="_blank" rel="noreferrer">
-                <img className="homePageIcon" src={require("../../images/hacker-rank.png")}  alt="hackerRank Icon" />
+                <img className="homePageIcon" src={"/images/hacker-rank.png"}  alt="hackerRank Icon" />
               </a>
             </div>
         </div>
@@ -29,7 +29,7 @@ function Home(){
         <div className="myImage border-0">
           <img
             className="myImageImg"
-            src={require("../../images/my-image.png")}
+            src={"/images/my-image.png"}
             alt="Sushil Bajpai - Web Developer"
           />
         </div>

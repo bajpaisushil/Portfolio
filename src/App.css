@@ -162,7 +162,7 @@ nav .icon-burger .line{
 
 /*  Skill Page Styling  */
 .skillsPage{
-  background-image: url("./images/underwater.jpeg");
+  background-image: url("../public/images/underwater.jpeg");
 }
 .skillsText{
   position: relative;
@@ -180,7 +180,7 @@ nav .icon-burger .line{
   padding: 3rem;
   width: fit-content;
   border-width: 2rem;
-  background-image: url("./images/fish.webp");
+  background-image: url("../public/images/fish.webp");
   background-size: contain;
 }
 
@@ -239,20 +239,36 @@ nav .icon-burger .line{
 .projectPage{
   background-color: #F9B5D0;
 }
+.projects_container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: center;
+}
 .projectPage a{
   text-decoration: none;
   color: blue;
   font-weight: 800;
 }
+.projectPageImage:hover{
+  transform: scale(1.25);
+  overflow: hidden;
+  transition: transform 1s ease-in-out;
+}
 .projectPage a:hover{
   font-size: 3rem;
 }
 .projectPageCards{
-  height: 100%;
   border-width: 0.3rem;
   border-color: #CB1C8D;
-  margin: 3rem;
-  padding: 0;
+  width: 40%;
+  margin: 1rem;
+  padding: 5px;
+  overflow: hidden;
+}
+.projectPageCardTitle{
+  text-align: center;
+  color: blue
 }
 .projectPageCardInfo{
   font-style: italic;

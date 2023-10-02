@@ -1,8 +1,6 @@
 import React from "react";
 import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
-import shark from "../../images/shark.png";
-import crocodile from "../../images/crocodile.png";
-import turtle from "../../images/turtle.png";
+
 
 function Skills() {
   // const [num, setNum] = useState(0);
@@ -25,7 +23,7 @@ function Skills() {
         <div
           className="skillsPageSkill"
           style={{
-            backgroundImage: `url(${crocodile})`,
+            backgroundImage: `url(/images/crocodile.png)`,
             position: "relative", left: `${randomNumber(1, 50)}%`
           }}
         >
@@ -37,7 +35,7 @@ function Skills() {
         <div
           className="skillsPageSkill"
           style={{
-            backgroundImage: `url(${crocodile})`,
+            backgroundImage: `url(/images/crocodile.png)`,
             position: "relative", left: `${randomNumber(1, 50)}%`
           }}
         >
@@ -47,7 +45,7 @@ function Skills() {
         <div
           className="skillsPageSkill"
           style={{
-            backgroundImage: `url(${shark})`,
+            backgroundImage: `url(/images/shark.png)`,
             position: "relative", left: `${randomNumber(1, 50)}%`
           }}
         >
@@ -65,7 +63,7 @@ function Skills() {
         <div
           className="skillsPageSkill"
           style={{
-            backgroundImage: `url(${turtle})`,
+            backgroundImage: `url(/images/shark.png)`,
             position: "relative", left: `${randomNumber(1, 50)}%`
           }}
         >

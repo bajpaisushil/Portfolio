@@ -59,18 +59,6 @@ function Achievement() {
         </div>
         <div className="card achievementCard col-3">
           <img
-            src={require("./achieves/udemy_c++.jpg")}
-            className="achievementCard-img m-2"
-            alt=" DSA in C++ Udemy ..."
-          />{" "}
-          <div className="card-body">
-            <p className="card-text achievementCardText">
-              Data Structures and Algorithms in C++
-            </p>
-          </div>
-        </div>
-        <div className="card achievementCard col-3">
-          <img
             src={require("./achieves/udemy_python.jpg")}
             className="achievementCard-img m-2"
             alt=" Python Udemy ..."
