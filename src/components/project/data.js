@@ -22,10 +22,10 @@ export const projects=[
     },
     {
         id: 4,
-        photo: 'notes-keeping-app.png',
-        url: 'https://notes-keep-frontend.vercel.app/',
-        title: 'Notes Keeping App',
-        desc: 'The Full-Stack MERN Notes App prioritizes simplicity and reliability, allowing users to perform CRUD operations to manage their notes efficiently. While not the fastest, its user-friendly interface and dependable functionality make it a worthwhile choice for note-keeping needs.',
+        photo: 'coolhotel.png',
+        url: 'https://cool-hotel.netlify.app/',
+        title: 'Cool Hotel',
+        desc: 'The app offers a modern and intuitive user experience, featuring responsive design for various devices. It enables users to effortlessly search for hotels, view detailed listings, and make informed choices for their travel accommodations. This project highlights my skills in web development and UI/UX design.',
     },
     {
         id: 5,
