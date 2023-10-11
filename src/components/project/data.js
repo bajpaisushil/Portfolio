@@ -30,7 +30,7 @@ export const projects=[
     {
         id: 5,
         photo: 'sorting-project.png',
-        url: 'https://sorting-project-sushil.vercel.app/',
+        url: 'https://searching-sorting.vercel.app/',
         title: 'Sorting Project',
         desc: 'The Sorting App is a practical tool that not only efficiently sorts user-provided input but also calculates and displays the time taken to complete the sorting process. This feature-rich app aids users in understanding the performance of different sorting algorithms.',
     },
