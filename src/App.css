@@ -174,7 +174,7 @@ nav .icon-burger .line{
   
 }
 .skillsPageSkill{
-  font-weight: 800;
+  font-weight: 900;
   font-size: 2rem;
   border-radius: 50%;
   padding: 3rem;
@@ -284,7 +284,9 @@ nav .icon-burger .line{
 .footerPage{
   background-color: black;
   color: #FFF5E4;
-  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
 }
 .footerPageCards{
   margin: 1rem;
@@ -292,14 +294,14 @@ nav .icon-burger .line{
 }
 .footerPageQuicks a{
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: white;
 }
 .footerPageQuicks a:hover{
   color: gold;
 }
 .footerPageText{
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 .footerPageQuickLink{
   text-decoration: underline goldenrod 1.5px;
@@ -450,14 +452,14 @@ nav .icon-burger .line{
     font-size: 1.7rem;
   }
   .footerPageCards .card-text{
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .footerPageQuickLinkLinks a{
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .footerPageCards{
     width: fit-content;
-    margin: 1.5rem;
+    margin: 1rem;
   }
 
 }

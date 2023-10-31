@@ -12,7 +12,7 @@ function Footer(){
             <div className="card-body">
               <h5 className="card-title py-3">Sushil's Portfolio</h5>
               <p className="card-text footerPageText">
-                Thanks for visiting my Portfolio <br/> Hope You have liked it 👍
+                Thanks for visiting my Portfolio <br/> Hope You like it 👍
               </p>
             </div>
           </div>
