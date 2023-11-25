@@ -7,6 +7,13 @@ export const projects=[
         desc: 'The Weather App, using HTML, CSS, and JavaScript, delivers real-time weather data for major global cities. Users input a city name, and the app provides key weather information, including temperature, humidity, wind speed, and conditions, utilizing external APIs for accuracy.',
     },
     {
+        id: 0,
+        photo: 'bg.png',
+        url: 'https://bhagavadgeeta.vercel.app/',
+        title: 'Bhagavad Gita',
+        desc: `Explore Bhagavad Gita Website, a comprehensive platform enabling users to search, read, and delve into the profound verses and chapters of this timeless scripture. Immerse yourself in the teachings and gain insights into life's philosophical and spiritual aspects with user-friendly navigation and a rich repository of Gita verses.`,
+    },
+    {
         id: 2,
         photo: 'tenzies.png',
         url: 'https://lets-tenzy.netlify.app/',
@@ -17,7 +24,7 @@ export const projects=[
         id: 3,
         photo: 'restaurant.png',
         url: 'https://restaurant-uiux.netlify.app/',
-        title: 'Cool Restaurant',
+        title: 'Yummy Restaurant',
         desc: 'The Frontend UI/UX Project showcases an aesthetically pleasing restaurant interface with a focus on fresh ingredients. Its design seamlessly blends a vibrant, inviting look with user-friendly navigation, creating an immersive dining experience.',
     },
     {

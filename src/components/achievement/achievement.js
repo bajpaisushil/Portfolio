@@ -8,19 +8,6 @@ function Achievement() {
           <EmojiEventsIcon fontSize="50" /> My Achievements
         </p>
       </div>
-
-        <div className="card achievementCard col-3">
-          <img
-            src={require("./achieves/iitKanpur.jpg")}
-            className="achievementCard-img m-2"
-            alt=" IITKanpur ..."
-          />
-          <div className="card-body">
-            <p className="card-text achievementCardText">
-              IIT Kanpur : National Anveshika Participation
-            </p>
-          </div>
-        </div>
         <div className="card achievementCard col-3">
           <img
             src={require("./achieves/bvicam_contest.jpg")}
@@ -102,31 +89,6 @@ function Achievement() {
           <div className="card-body">
             <p className="card-text achievementCardText">
               Plezmo Web Designing
-            </p>
-          </div>
-        </div>
-        <div className="card achievementCard col-3">
-          <img
-          height={400}
-            src={require("./achieves/english.jpg")}
-            className="achievementCard-img m-2"
-            alt=" English ..."
-          />
-          <div className="card-body">
-            <p className="card-text achievementCardText">
-              Elementary English Learning
-            </p>
-          </div>
-        </div>
-        <div className="card achievementCard col-3">
-          <img
-            src={require("./achieves/coursera_globalHealth.jpg")}
-            className="achievementCard-img m-2"
-            alt=" Coursera Global  ..."
-          />
-          <div className="card-body">
-            <p className="card-text achievementCardText">
-              Global Health Challenges 
             </p>
           </div>
         </div>
