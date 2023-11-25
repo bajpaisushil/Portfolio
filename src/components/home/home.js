@@ -29,7 +29,7 @@ function Home(){
         <div className="myImage border-0">
           <img
             className="myImageImg"
-            src={"/images/my-image.png"}
+            src={"/images/sushil_image.png"}
             alt="Sushil Bajpai - Web Developer"
           />
         </div>

@@ -19,10 +19,10 @@ function Education() {
           <div className="card-body">
             <h5 className="card-title">Bachelor of Technology</h5>
             <p className="card-text educationPageText">
-              Bharati Vidyapeeth College Of Engineering New Delhi (BVCOEND)
+              Bharati Vidyapeeth's College Of Engineering, New Delhi (BVCOEND)
               <br />
               <p className="card-text educationPageMentions">
-                2021-2025 | B-tech | Pursuing | 9.2 CGPA
+                2021-2025 | B-tech | Pursuing | 9.0 CGPA
               </p>
             </p>
           </div>
