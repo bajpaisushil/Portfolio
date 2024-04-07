@@ -1,5 +1,12 @@
 export const projects=[
     {
+        id: 4,
+        photo: 'coolhotel.png',
+        url: 'https://eurostarinn.com',
+        title: 'EurostarInn Hotel',
+        desc: 'The EurostarInn Hotel website, a product of my internship. Its sleek interface, intuitive navigation, and responsive design facilitate seamless exploration and booking, demonstrating my ability to deliver functional and visually appealing digital solutions.',
+    },
+    {
         id: 1,
         photo: 'weather-app.png',
         url: 'https://weather-vanilla-project.netlify.app/',
@@ -26,13 +33,6 @@ export const projects=[
         url: 'https://restaurant-uiux.netlify.app/',
         title: 'Yummy Restaurant',
         desc: 'The Frontend UI/UX Project showcases an aesthetically pleasing restaurant interface with a focus on fresh ingredients. Its design seamlessly blends a vibrant, inviting look with user-friendly navigation, creating an immersive dining experience.',
-    },
-    {
-        id: 4,
-        photo: 'coolhotel.png',
-        url: 'https://cool-hotel.netlify.app/',
-        title: 'Cool Hotel',
-        desc: 'The app offers a modern and intuitive user experience, featuring responsive design for various devices. It enables users to effortlessly search for hotels, view detailed listings, and make informed choices for their travel accommodations. This project highlights my skills in web development and UI/UX design.',
     },
     {
         id: 5,
