@@ -27,7 +27,13 @@ function Project() {
               />
             </a>
             <div className="">
-              <p className="card-title projectPageCardTitle">{p.title}</p>
+            <a
+              className="projectPageCardTitle"
+              href={`${p.url}`}
+              target="_blank"
+              rel="noreferrer"
+            ><p className="card-title projectPageCardTitle">{p.title}</p>
+            </a>
               <p className="projectPageCardInfo">{p.desc}</p>
             </div>
           </div>
