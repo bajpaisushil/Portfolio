@@ -14,6 +14,13 @@ export const projects=[
         desc: 'The Weather App, using HTML, CSS, and JavaScript, delivers real-time weather data for major global cities. Users input a city name, and the app provides key weather information, including temperature, humidity, wind speed, and conditions, utilizing external APIs for accuracy.',
     },
     {
+        id: 7,
+        photo: 'resticious.png',
+        url: 'https://resticious.vercel.app/',
+        title: 'Resticious',
+        desc: 'A Full-Stack restaurant management system featuring secure authentication, order placement and tracking, and comprehensive admin tools for user, product, and order management for Customers and Staffs',
+    },
+    {
         id: 0,
         photo: 'bg.png',
         url: 'https://bhagavadgeeta.vercel.app/',
