@@ -9,9 +9,9 @@ function About() {
         </p>
       </div>
       <div className="card m-auto aboutPageCardBackground border-0">
-        <h5 className="card-title text-center">It's Sushil</h5>
+        {/* <h5 className="card-title text-center">It's Sushil</h5> */}
         <p className="card-text aboutPageText">
-          <br />
+          {/* <br /> */}
           As a passionate full-stack developer, I bring creativity and
           efficiency to every project. With a strong foundation in both
           front-end and back-end technologies, I specialize in crafting robust
