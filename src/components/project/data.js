@@ -55,4 +55,11 @@ export const projects=[
         title: 'Pokedex',
         desc: 'The Pokedex App is a comprehensive tool for Pokemon enthusiasts. Users can easily search for specific Pokemon and view their details by clicking on individual cards. It offers an immersive experience, providing in-depth information about each Pokemon in a user-friendly interface.',
     },
+    {
+        id: 8,
+        photo: 'notes-app.png',
+        url: 'https://notes-app-real-time-client.vercel.app/',
+        title: 'Notes App',
+        desc: 'The Notes App RealTime Client is a responsive, modern web application built with React, TypeScript, and Vite. It allows users to create, edit, and manage notes in real time, ensuring that changes are immediately reflected across all connected clients.',
+    },
 ]
